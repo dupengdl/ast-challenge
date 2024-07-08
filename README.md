@@ -76,7 +76,7 @@ You'll be writing a function to generate code, and we'll be writing a test as we
 
 - [ ] create a new test, call it `ast-challenge.test.ts` inside of [`__tests__`](./__tests__/) folder
 - [ ] write code for the creation of the AST inside of `src/index.ts`
-- [ ] write code for the converting AST into Typesript code inside of `__tests__/ast-challenge.test.ts`
+- [ ] write code for the converting AST into TypeScript code inside of `__tests__/ast-challenge.test.ts`
 - [ ] use `expect(resultingCode).toMatchSnapshot()` to store output of code generation
 
 After completing the function, parameterize (meaning make function arguments to make dynamic) the following properties, so that a developer can use this method to generate many of these hooks. Be sure to include parameterization of these fields:
